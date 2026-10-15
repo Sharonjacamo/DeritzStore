@@ -78,3 +78,7 @@ Permite visualizar la ubicación del cliente o lugar de entrega de un pedido.
 Se utilizarán cuadros de diálogo para confirmar acciones importantes, por ejemplo antes de eliminar un cliente.
 
 ![Dialog de confirmación](eliminar.png)
+
+## Avance de prueba
+
+Se realiza este cambio desde la rama prueba01 para comprobar el flujo de trabajo mediante Pull Request.
