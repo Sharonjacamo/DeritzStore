@@ -21,3 +21,7 @@ La aplicación permitirá llevar un control de los pagos pendientes, ventas canc
 - Acceso a cámara o galería para agregar fotografías de productos o comprobantes.
 - Uso de diálogos de confirmación.
 - Registro y visualización de ubicaciones mediante mapa.
+
+## Integrante
+
+- Sharon Jacamo
