@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DeritzStore</string>
+
+    <!-- General -->
+    <string name="welcome">Welcome to DeritzStore</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="search">Search</string>
+    <string name="confirm">Confirm</string>
+    <string name="add">Add</string>
+    <string name="details">Details</string>
+
+    <!-- Clients -->
+    <string name="clients">Clients</string>
+    <string name="add_client">Add client</string>
+    <string name="client_name">Full name</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="search_client">Search client</string>
+
+    <!-- Products -->
+    <string name="products">Products</string>
+    <string name="add_product">Add product</string>
+    <string name="product_name">Product name</string>
+    <string name="brand">Brand</string>
+    <string name="size">Size</string>
+    <string name="color">Color</string>
+    <string name="price">Price</string>
+    <string name="stock">Stock</string>
+    <string name="retail_price">Retail price</string>
+    <string name="wholesale_price">Wholesale price</string>
+
+    <!-- Sales -->
+    <string name="sales">Sales</string>
+    <string name="new_sale">New sale</string>
+    <string name="sale_type">Sale type</string>
+    <string name="retail">Retail</string>
+    <string name="wholesale">Wholesale</string>
+    <string name="quantity">Quantity</string>
+    <string name="total_amount">Total amount</string>
+    <string name="pending_sales">Pending sales</string>
+    <string name="paid_sales">Paid sales</string>
+    <string name="overdue_sales">Overdue sales</string>
+    <string name="wholesale_orders">Wholesale orders</string>
+
+    <!-- Payments -->
+    <string name="payments">Payments</string>
+    <string name="first_payment">First payment (50%)</string>
+    <string name="second_payment">Second payment</string>
+    <string name="remaining_balance">Remaining balance</string>
+    <string name="payment_method">Payment method</string>
+    <string name="cash">Cash</string>
+    <string name="bank_transfer">Bank transfer</string>
+    <string name="payment_due_date">Payment due date</string>
+    <string name="register_payment">Register payment</string>
+    <string name="payment_receipt">Payment receipt</string>
+
+    <!-- Deliveries -->
+    <string name="deliveries">Deliveries</string>
+    <string name="delivery_date">Delivery date</string>
+    <string name="delivery_address">Delivery address</string>
+    <string name="delivery_status">Delivery status</string>
+    <string name="pending">Pending</string>
+    <string name="scheduled">Scheduled</string>
+    <string name="delivered">Delivered</string>
+    <string name="completed">Completed</string>
+
+    <!-- Camera and Map -->
+    <string name="take_photo">Take photo</string>
+    <string name="choose_gallery">Choose from gallery</string>
+    <string name="map">Map</string>
+    <string name="view_location">View location</string>
+    <string name="save_location">Save location</string>
+
+    <!-- Dialogs -->
+    <string name="confirm_action">Confirm action</string>
+    <string name="confirm_delete_client">Do you want to delete this client?</string>
+    <string name="confirm_delete_product">Do you want to delete this product?</string>
+    <string name="confirm_delete_sale">Do you want to delete this sale?</string>
+    <string name="confirm_payment">Do you want to register this payment?</string>
+</resources>
