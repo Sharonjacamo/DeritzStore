@@ -1,3 +1,87 @@
+
 <resources>
     <string name="app_name">DeritzStore</string>
+
+    <!-- General -->
+    <string name="welcome">Bienvenido a DeritzStore</string>
+    <string name="home">Inicio</string>
+    <string name="dashboard">Resumen general</string>
+    <string name="save">Guardar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+    <string name="search">Buscar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="add">Agregar</string>
+    <string name="details">Detalles</string>
+
+    <!-- Clients -->
+    <string name="clients">Clientes</string>
+    <string name="add_client">Agregar cliente</string>
+    <string name="client_name">Nombre completo</string>
+    <string name="phone">Teléfono</string>
+    <string name="email">Correo electrónico</string>
+    <string name="address">Dirección</string>
+    <string name="search_client">Buscar cliente</string>
+
+    <!-- Products -->
+    <string name="products">Productos</string>
+    <string name="add_product">Agregar producto</string>
+    <string name="product_name">Nombre del producto</string>
+    <string name="brand">Marca</string>
+    <string name="size">Talla</string>
+    <string name="color">Color</string>
+    <string name="price">Precio</string>
+    <string name="stock">Existencias</string>
+    <string name="retail_price">Precio al detalle</string>
+    <string name="wholesale_price">Precio al por mayor</string>
+
+    <!-- Sales -->
+    <string name="sales">Ventas</string>
+    <string name="new_sale">Nueva venta</string>
+    <string name="sale_type">Tipo de venta</string>
+    <string name="retail">Detalle</string>
+    <string name="wholesale">Por mayor</string>
+    <string name="quantity">Cantidad</string>
+    <string name="total_amount">Monto total</string>
+    <string name="pending_sales">Ventas pendientes</string>
+    <string name="paid_sales">Ventas pagadas</string>
+    <string name="overdue_sales">Ventas vencidas</string>
+    <string name="wholesale_orders">Pedidos mayoristas</string>
+
+    <!-- Payments -->
+    <string name="payments">Pagos</string>
+    <string name="first_payment">Primer pago (50%)</string>
+    <string name="second_payment">Segundo pago</string>
+    <string name="remaining_balance">Saldo pendiente</string>
+    <string name="payment_method">Método de pago</string>
+    <string name="cash">Efectivo</string>
+    <string name="bank_transfer">Transferencia bancaria</string>
+    <string name="payment_due_date">Fecha límite de pago</string>
+    <string name="register_payment">Registrar pago</string>
+    <string name="payment_receipt">Comprobante de pago</string>
+
+    <!-- Deliveries -->
+    <string name="deliveries">Entregas</string>
+    <string name="delivery_date">Fecha de entrega</string>
+    <string name="delivery_address">Dirección de entrega</string>
+    <string name="delivery_status">Estado de entrega</string>
+    <string name="pending">Pendiente</string>
+    <string name="scheduled">Programada</string>
+    <string name="delivered">Entregada</string>
+    <string name="completed">Completada</string>
+
+    <!-- Camera and Map -->
+    <string name="take_photo">Tomar foto</string>
+    <string name="choose_gallery">Elegir de galería</string>
+    <string name="map">Mapa</string>
+    <string name="view_location">Ver ubicación</string>
+    <string name="save_location">Guardar ubicación</string>
+
+    <!-- Dialogs -->
+    <string name="confirm_action">Confirmar acción</string>
+    <string name="confirm_delete_client">¿Desea eliminar este cliente?</string>
+    <string name="confirm_delete_product">¿Desea eliminar este producto?</string>
+    <string name="confirm_delete_sale">¿Desea eliminar esta venta?</string>
+    <string name="confirm_payment">¿Desea registrar este pago?</string>
 </resources>
