@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F8FAFC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sales"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#172033"
+            android:layout_marginBottom="18dp" />
+
+        <EditText
+            android:id="@+id/etSearchSale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/search_sale"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:layout_marginBottom="16dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:layout_marginBottom="18dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnAllSales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/all_sales" />
+
+                <Button
+                    android:id="@+id/btnPendingSales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pending"
+                    android:layout_marginStart="6dp" />
+
+                <Button
+                    android:id="@+id/btnPaidSales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/paid"
+                    android:layout_marginStart="6dp" />
+
+                <Button
+                    android:id="@+id/btnOverdueSales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/overdue"
+                    android:layout_marginStart="6dp" />
+
+                <Button
+                    android:id="@+id/btnWholesaleSales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wholesale"
+                    android:layout_marginStart="6dp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:id="@+id/saleListContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sale_list_placeholder"
+                android:textSize="16sp"
+                android:textColor="#64748B"
+                android:gravity="center"
+                android:padding="24dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnNewSale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_sale"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>
