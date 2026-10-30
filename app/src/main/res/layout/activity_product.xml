@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F8FAFC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvProductTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_product"
+            android:textColor="#172033"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/ivProductPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:contentDescription="@string/product_photo"
+            android:background="#E6EDF7"
+            android:scaleType="centerInside"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnTakePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/take_photo" />
+
+        <Button
+            android:id="@+id/btnChooseGallery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_gallery"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/product_name"
+            android:inputType="textCapWords"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etBrand"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/brand"
+            android:inputType="textCapWords"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/size"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/color"
+            android:inputType="textCapWords"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etRetailPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/retail_price"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etWholesalePrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/wholesale_price"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/etStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/stock"
+            android:inputType="number"
+            android:minHeight="48dp" />
+
+        <!-- Product category -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/category"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#172033"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/rgProductCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/rbProductRetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/retail"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/rbProductWholesale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wholesale"
+                android:layout_marginStart="20dp" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/description"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:minLines="3"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/btnSaveProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_product" />
+
+    </LinearLayout>
+</ScrollView>

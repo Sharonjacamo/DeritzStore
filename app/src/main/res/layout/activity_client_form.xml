@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F8FAFC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvClientFormTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_client"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#172033"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/client_name"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etClientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/client_name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etClientPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/phone"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etClientEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etClientAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/address"
+            android:inputType="textPostalAddress"
+            android:minHeight="48dp"
+            android:layout_marginBottom="14dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notes"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etClientNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/client_notes_hint"
+            android:inputType="textMultiLine"
+            android:gravity="top"
+            android:minLines="3"
+            android:layout_marginBottom="18dp" />
+
+        <CheckBox
+            android:id="@+id/cbClientActive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/active_client"
+            android:checked="true"
+            android:layout_marginBottom="18dp" />
+
+        <Button
+            android:id="@+id/btnSaveClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_client" />
+
+        <Button
+            android:id="@+id/btnCancelClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel" />
+
+    </LinearLayout>
+</ScrollView>

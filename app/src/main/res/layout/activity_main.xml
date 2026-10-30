@@ -1,19 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="#F8FAFC"
+    android:fillViewport="true">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="vertical"
+        android:padding="16dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/tvStoreName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#1769FF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="12dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/store_slogan"
+            android:textColor="#64748B"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome_title"
+            android:textColor="#172033"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dashboard"
+            android:textColor="#64748B"
+            android:textSize="18sp"
+            android:layout_marginBottom="18dp" />
+
+        <!-- Summary cards -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tvPendingSales"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/pending_sales"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#172033"
+                android:gravity="center"
+                android:background="#FFF1DB"
+                android:layout_marginEnd="5dp" />
+
+            <TextView
+                android:id="@+id/tvOverdueSales"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/overdue_sales"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#172033"
+                android:gravity="center"
+                android:background="#FFE5E5"
+                android:layout_marginStart="5dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/tvPaidSales"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/paid_sales"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#172033"
+                android:gravity="center"
+                android:background="#DFF7E7"
+                android:layout_marginEnd="5dp" />
+
+            <TextView
+                android:id="@+id/tvWholesaleOrders"
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:text="@string/wholesale_orders"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#172033"
+                android:gravity="center"
+                android:background="#E0ECFF"
+                android:layout_marginStart="5dp" />
+
+        </LinearLayout>
+
+        <!-- Quick access -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quick_access"
+            android:textColor="#172033"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:layout_marginBottom="22dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnClients"
+                    android:layout_width="110dp"
+                    android:layout_height="70dp"
+                    android:text="@string/clients" />
+
+                <Button
+                    android:id="@+id/btnProducts"
+                    android:layout_width="110dp"
+                    android:layout_height="70dp"
+                    android:text="@string/products" />
+
+                <Button
+                    android:id="@+id/btnSales"
+                    android:layout_width="110dp"
+                    android:layout_height="70dp"
+                    android:text="@string/sales" />
+
+                <Button
+                    android:id="@+id/btnPayments"
+                    android:layout_width="110dp"
+                    android:layout_height="70dp"
+                    android:text="@string/payments" />
+
+                <Button
+                    android:id="@+id/btnMap"
+                    android:layout_width="110dp"
+                    android:layout_height="70dp"
+                    android:text="@string/map" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!-- Recent sales -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recent_sales"
+            android:textSize="22sp"
+            android:textColor="#172033"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp" />
+
+        <LinearLayout
+            android:id="@+id/recentSalesContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="14dp"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/recent_sales_placeholder"
+                android:textColor="#64748B"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:padding="20dp" />
+
+        </LinearLayout>
+
+        <!-- Bottom navigation preview -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="@string/home"
+                android:textColor="#1769FF"
+                android:gravity="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="@string/sales"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="@string/products"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="@string/clients"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,4 +1,3 @@
-
 <resources>
     <string name="app_name">DeritzStore</string>
 
@@ -77,6 +76,23 @@
     <string name="map">Mapa</string>
     <string name="view_location">Ver ubicación</string>
     <string name="save_location">Guardar ubicación</string>
+    <string name="client_list_placeholder">Aquí aparecerán los clientes registrados</string>
+
+
+    <string name="product_photo">Fotografía del producto</string>
+    <string name="description">Descripción</string>
+    <string name="save_product">Guardar producto</string>
+
+
+    <string name="select_client">Seleccionar cliente</string>
+    <string name="select_product">Seleccionar producto</string>
+    <string name="cash_payment">Contado</string>
+    <string name="credit_payment">Crédito</string>
+    <string name="unit_price">Precio unitario</string>
+    <string name="select_date">Seleccionar fecha</string>
+    <string name="product_delivered">Producto entregado</string>
+    <string name="save_sale">Guardar venta</string>
+
 
     <!-- Dialogs -->
     <string name="confirm_action">Confirmar acción</string>
@@ -84,4 +100,58 @@
     <string name="confirm_delete_product">¿Desea eliminar este producto?</string>
     <string name="confirm_delete_sale">¿Desea eliminar esta venta?</string>
     <string name="confirm_payment">¿Desea registrar este pago?</string>
+
+
+    <string name="search_sale">Buscar venta</string>
+    <string name="all_sales">Todas</string>
+    <string name="paid">Pagadas</string>
+    <string name="overdue">Vencidas</string>
+    <string name="sale_list_placeholder">Aquí aparecerán las ventas registradas</string>
+
+
+    <string name="sale_detail">Detalle de venta</string>
+    <string name="no_client_selected">Sin cliente seleccionado</string>
+    <string name="no_product_selected">Sin producto seleccionado</string>
+    <string name="no_date">Fecha no registrada</string>
+    <string name="payment_status">Estado de pago</string>
+    <string name="notes">Notas</string>
+    <string name="no_notes">Sin notas registradas</string>
+
+
+    <string name="map_preview">Vista previa del mapa</string>
+    <string name="no_address">Dirección no registrada</string>
+    <string name="get_directions">Cómo llegar</string>
+
+
+    <string name="client_notes_hint">Observaciones del cliente</string>
+    <string name="active_client">Cliente activo</string>
+    <string name="save_client">Guardar cliente</string>
+    <string name="edit_client">Editar cliente</string>
+
+
+
+    <string name="select_sale">Seleccionar venta</string>
+    <string name="amount_not_available">Monto no disponible</string>
+    <string name="payment_amount">Monto del pago</string>
+    <string name="payment_date">Fecha de pago</string>
+    <string name="add_receipt">Agregar comprobante</string>
+    <string name="payment_notes_hint">Observaciones del pago</string>
+    <string name="save_payment">Guardar pago</string>
+
+
+
+    <string name="store_slogan">Tenis colombianos, más cerca de ti</string>
+    <string name="welcome_title">¡Hola!</string>
+    <string name="quick_access">Accesos rápidos</string>
+    <string name="recent_sales">Ventas recientes</string>
+    <string name="recent_sales_placeholder">Aquí aparecerán las ventas recientes</string>
+
+
+
+    <string name="demo_client_name">María López</string>
+    <string name="demo_client_phone">Teléfono: 8888-8888</string>
+    <string name="demo_client_address">Barranca, Puntarenas</string>
+    <string name="view_client">Consultar</string>
+
+    <string name="category">Categoría</string>
 </resources>
