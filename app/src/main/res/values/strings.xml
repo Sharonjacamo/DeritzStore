@@ -154,4 +154,25 @@
     <string name="view_client">Consultar</string>
 
     <string name="category">Categoría</string>
+
+
+
+    <string name="required_field">Este campo es obligatorio</string>
+    <string name="msg_client_not_found">Cliente no encontrado</string>
+    <string name="msg_client_saved">Cliente guardado correctamente</string>
+    <string name="msg_client_updated">Cliente actualizado correctamente</string>
+    <string name="msg_client_deleted">Cliente eliminado correctamente</string>
+    <string name="confirm_update_client">¿Desea actualizar este cliente?</string>
+
+
+
+    <string name="msg_no_clients">No hay clientes para mostrar</string>
+    <string name="client_phone_detail">Teléfono: %1$s</string>
+    <string name="client_address_detail">Dirección: %1$s</string>
+    <string name="client_status_active">Estado: Activo</string>
+    <string name="client_status_inactive">Estado: Inactivo</string>
+    <string name="client_edit_action">Editar</string>
+    <string name="client_delete_action">Eliminar</string>
+
+
 </resources>
