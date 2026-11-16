@@ -157,4 +157,23 @@
     <string name="view_client">View</string>
 
     <string name="category">Category</string>
+
+    <string name="required_field">This field is required</string>
+    <string name="msg_client_not_found">Client not found</string>
+    <string name="msg_client_saved">Client saved successfully</string>
+    <string name="msg_client_updated">Client updated successfully</string>
+    <string name="msg_client_deleted">Client deleted successfully</string>
+    <string name="confirm_update_client">Do you want to update this client?</string>
+
+
+
+    <string name="msg_no_clients">No clients to display</string>
+    <string name="client_phone_detail">Phone: %1$s</string>
+    <string name="client_address_detail">Address: %1$s</string>
+    <string name="client_status_active">Status: Active</string>
+    <string name="client_status_inactive">Status: Inactive</string>
+    <string name="client_edit_action">Edit</string>
+    <string name="client_delete_action">Delete</string>
+
+
 </resources>
